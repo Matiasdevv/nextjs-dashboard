@@ -1,7 +1,5 @@
-import '@/app/ui/global.css'
-
-import { ubuntu } from './ui/fonts';
-
+import '@/app/ui/global.css';
+ 
 export default function RootLayout({
   children,
 }: {
@@ -9,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.className} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
