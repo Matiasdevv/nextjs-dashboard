@@ -96,8 +96,6 @@ const goto = () => {
     redirect('/dashboard/invoices');
 }
 
-
- 
 export async function authenticate(
     prevState: string | undefined,
     formData: FormData,
