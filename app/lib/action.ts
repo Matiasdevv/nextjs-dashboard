@@ -51,8 +51,9 @@ export async function createInvoice(prevState: State, formData: FormData) {
         return {
             message: 'Database Error: Failed to create Invoice.',
         };
-    }
-    goto();
+      }
+      goto
+
 }
 
 export async function updateInvoice(id: string, formData: FormData) {
