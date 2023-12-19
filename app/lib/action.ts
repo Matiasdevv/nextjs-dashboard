@@ -52,7 +52,7 @@ export async function createInvoice(prevState: State, formData: FormData) {
             message: 'Database Error: Failed to create Invoice.',
         };
       }
-      goto
+      goto();
 
 }
 
