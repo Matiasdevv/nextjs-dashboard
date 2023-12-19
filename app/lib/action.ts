@@ -53,6 +53,7 @@ export async function createInvoice(prevState: State, formData: FormData) {
         };
       }
       goto();
+      return {message:'created succesfully'};
 
 }
 
